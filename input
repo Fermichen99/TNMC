@@ -1,0 +1,11 @@
+Type  Tensor
+L     4
+Dimension 2 
+T     2.0
+P     0.5
+chi   16
+Ndisorder 20
+Nsample 200
+Ntherm  0
+Nreplic 2
+seed  199
