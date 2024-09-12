@@ -1,5 +1,5 @@
 # TNMC
-**TNMC** Efficient Algorithm Design for 2D frusted system (spin glasses, random ising model)
+**TNMC** Efficient algorithm design for 2D frusted and disorder system (spin glasses, random bond Ising model)
 
 ## Try the code
 run the code  by 
