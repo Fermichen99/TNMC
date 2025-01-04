@@ -7,10 +7,8 @@
 
 - **Julia 9+**
 - **Required Libraries**: Ensure the following libraries are installed:
-  - `numpy`
-  - `scipy`
-  - `matplotlib`
-  - `joblib`
+  - `LinearAlgebra:`
+  - `OMEinsum`
 
 ## Try the code
 run the code  by 
