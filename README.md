@@ -1,6 +1,17 @@
 # TNMC
 **TNMC** Efficient algorithm design for 2D frusted and disorder system (spin glasses, random bond Ising model)
 
+
+## Getting Started
+### Prerequisites
+
+- **Julia 9+**
+- **Required Libraries**: Ensure the following libraries are installed:
+  - `numpy`
+  - `scipy`
+  - `matplotlib`
+  - `joblib`
+
 ## Try the code
 run the code  by 
 ```
@@ -8,4 +19,18 @@ run the code  by
 ```
 where [input](src/input) is the parameter entered in the program. The documents of tensor network contraction and sampling are all in [tensor](src/Tensor.jl). 
 
-A lecture has been prepared to help understand the algorithm [lecture](lecture/TNMC.ipynb). Additionally, the associated paper is available at [arXiv.2409.06538](https://doi.org/10.48550/arXiv.2409.06538)
+A lecture has been prepared to help understand the algorithm [lecture](lecture/TNMC.ipynb). 
+
+## Citation
+
+If you use our code for your research, please consider citing our paper:
+```bibtex
+@misc{chen2024tensornetworkmontecarlo,
+      title={Tensor network Monte Carlo simulations for the two-dimensional random-bond Ising model}, 
+      author={Tao Chen and Erdong Guo and Wanzhou Zhang and Pan Zhang and Youjin Deng},
+      year={2024},
+      eprint={2409.06538},
+      archivePrefix={arXiv},
+      primaryClass={cond-mat.stat-mech},
+      url={https://arxiv.org/abs/2409.06538}, 
+}
